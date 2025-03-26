@@ -37,4 +37,3 @@ else:
     st.write("wating for file to upload")
 
 
-
