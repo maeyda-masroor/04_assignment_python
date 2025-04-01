@@ -8,6 +8,7 @@ def rolldice():
     total = die1 + die2
     print("Total die"+str(total))
 
+    
 def main():
     die1 = 10
     print("Die1 starts as"+str(die1))
