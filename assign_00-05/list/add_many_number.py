@@ -4,8 +4,11 @@ def add_many_numbers(numbers) -> int:
     """
 
     total_so_far: int = 0
-    for number in numbers:
-        total_so_far += number
+    index: int = 0
+
+    while (index < len(numbers)):
+         total_so_far+=numbers[index]
+         index+=1
 
     return total_so_far
 

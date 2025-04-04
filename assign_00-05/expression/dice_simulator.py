@@ -3,6 +3,7 @@ import random
 NUM_SIDE = 6
 
 def rolldice():
+    #select random number from 1 till 6 for both total has different value than in main die1
     die1 = random.randint(1,NUM_SIDE)
     die2 = random.randint(1,NUM_SIDE)
     total = die1 + die2
