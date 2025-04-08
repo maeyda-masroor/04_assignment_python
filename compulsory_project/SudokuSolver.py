@@ -1,4 +1,4 @@
-
+import openai
 def find_next_empty(puzzle):
     for r in range(9):
         for c in range(9):

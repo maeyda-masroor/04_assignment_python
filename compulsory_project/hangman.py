@@ -1,6 +1,5 @@
 import random
 import string
-
 words = ["apple", "balloon", "cat", "door", "elephant", "fan", "grass", "high", "icecream", 
          "jug", "kangaroo", "lemon", "mango", "nuts", "orange", "pear", "queen", "rock", 
          "sun", "uniform", "year", "zebra"]
