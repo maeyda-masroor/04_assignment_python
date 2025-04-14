@@ -1,4 +1,4 @@
-import tkinter as TK
+#import tkinter as TK
 import turtle
 import os
 
