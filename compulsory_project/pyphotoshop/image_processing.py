@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image, ImageFilter, ImageOps
 
 st.set_page_config(page_title="Image Manipulation App", layout="centered")
-st.title("🖼️ Python Image Manipulation App")
+st.title(" Python Image Manipulation App")
 st.write("Upload an image and apply basic transformations.")
 
 # Upload image
@@ -40,7 +40,7 @@ if uploaded_file:
     st.image(image, use_column_width=True)
 
     # Option to download
-    st.sidebar.markdown("### 📥 Download Image")
+    st.sidebar.markdown("### Download Image")
     if st.sidebar.button("Generate Download Link"):
         from io import BytesIO
         import base64

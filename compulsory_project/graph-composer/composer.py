@@ -34,7 +34,7 @@ def compose(g, words, length=50):
 # -------------------- Streamlit Interface --------------------
 
 st.set_page_config(page_title="Markov Chain Text Generator")
-st.title("🧠 Markov Chain Text Generator")
+st.title("Markov Chain Text Generator")
 st.markdown("Upload a `.txt` file and generate a new text composition using a Markov Chain model.")
 
 uploaded_file = st.file_uploader("Upload a text file", type=["txt"])
