@@ -181,3 +181,6 @@ while running:
     player(playerX, playerY)
     show_score(textX, testY)
     pygame.display.update()
+
+#python3 -m venv venv
+#source venv/bin/activate
